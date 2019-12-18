@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Chrome') {
+    stage('Browser Tests') {
       parallel {
         stage('Chrome') {
           steps {
